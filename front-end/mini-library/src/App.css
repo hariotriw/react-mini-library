@@ -1,38 +1,40 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Code Here */
+.services {
+  min-height: 800px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.bg-forestgreen {
+  background-color: forestgreen;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.bg-olivedrab {
+  background-color: olivedrab;
 }
-
-.App-link {
-  color: #61dafb;
+.bg-greenyellow {
+  background-color: greenyellow;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.bg-limegreen {
+  background-color: limegreen;
+}
+.bg-dodgerblue {
+  background-color: dodgerblue;
+}
+.bg-cstgainsboro {
+  background-color: #DFE3E1;
+}
+.bg-cstmincream {
+  background-color: #F8FAF9;
+}
+.text-justify {
+  text-align: justify;
+}
+.same-line {
+  line-height: 1.5em;
+  height: 14em;       /* height is 2x line-height, so two lines will display */
+  overflow: hidden;
+}
+body {
+  min-height: 1000px;
+}
+.no-link {
+  text-decoration: none;
 }

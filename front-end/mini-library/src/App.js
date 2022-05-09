@@ -1,15 +1,14 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.css';
+import Navbar from './components/Navbar';
+import Content from './components/Content';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Web under development
-        </p>
-      </header>
+    <div className="App container-fluid p-0">
+        <Navbar/>
+        <Content/>
     </div>
   );
 }
